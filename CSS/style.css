@@ -156,7 +156,7 @@ span {
 .hero-section {
     background-image: url('../amazon-img/hero-image.jpg');
     background-size: cover;
-    height:320px;
+    height:480px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -165,13 +165,13 @@ span {
 .hero-msg{
     background-color: white;
     color:black;
-    height:40px;
+    height:45px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:0.9rem;
     width:98%;
-    margin-bottom: 25px;
+    margin-bottom: 175px;
 }
 
 .hero-msg a{
@@ -181,3 +181,50 @@ span {
     color:brown;
     text-decoration: underline;
 }
+
+/* BLOCK-3 */
+.main{
+    display:flex;
+    background-color: rgb(230, 227, 227);
+    justify-content: space-evenly;
+}
+.box {
+    border:none;
+    height: 370px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: -150px;
+    
+}
+ .box img {
+    margin-left: 10px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 263px;
+}
+#home-essential img{
+    margin-left: 40px;
+    height: 263px;
+
+}
+
+.box h2{
+    margin-left:10px;
+}
+.box p{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.box p{
+    color: #007185;
+    font-size:14px;
+    margin-left:10px;
+}
+.box p:hover{
+    color:brown;
+}
+    
+
